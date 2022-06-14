@@ -1,0 +1,32 @@
+h1,
+h2 {
+    color: rgb(19, 87, 151);
+    font-family: monospace;
+    font-weight: 15;
+    font-weight: 1000;
+} /* no semicolon ! */
+
+p,
+li,
+ol {
+    color: hsla(0, 0%, 14%, 0.87);
+    /* background-color: red; */
+    font-family: monospace;  /*  family specified without quotes */
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+}
+
+a {
+    color: rgb(0, 89, 255);
+    background-color: rgba(0, 119, 255, 0.096);
+    font-family: monospace;
+    font-size: 15px;
+
+}
+
+img {
+    height: auto;
+    width: 250px;
+}
+
