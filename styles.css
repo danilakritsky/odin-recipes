@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Fira Code';
+    src: url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+}
+
 h1,
 h2 {
     color: rgb(19, 87, 151);
@@ -11,7 +16,7 @@ li,
 ol {
     color: hsla(0, 0%, 14%, 0.87);
     /* background-color: red; */
-    font-family: monospace;  /*  family specified without quotes */
+    font-family: 'Fira Code';  /*  family specified without quotes */
     font-size: 15px;
     font-weight: 500;
     text-align: left;
