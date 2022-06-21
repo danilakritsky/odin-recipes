@@ -1,6 +1,14 @@
-@font-face {
-    font-family: 'Fira Code';
-    src: url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400&display=swap');
+
+* {
+    box-sizing: border-box;
+    max-width: 600px;
+    margin: auto;
+    /* border: black solid; */
+}
+
+body {
+    margin-bottom: 16px;
 }
 
 h1,
@@ -9,14 +17,20 @@ h2 {
     font-family: monospace;
     font-weight: 15;
     font-weight: 1000;
+    text-align: center;
+    margin: 16px auto;
 } /* no semicolon ! */
+
+p {
+    margin: auto 16px;
+}
 
 p,
 li,
 ol {
     color: hsla(0, 0%, 14%, 0.87);
     /* background-color: red; */
-    font-family: 'Fira Code';  /*  family specified without quotes */
+    font-family: 'Sora', sans-serif;  /*  family specified without quotes */
     font-size: 15px;
     font-weight: 500;
     text-align: left;
@@ -27,11 +41,23 @@ a {
     background-color: rgba(0, 119, 255, 0.096);
     font-family: monospace;
     font-size: 15px;
+    text-align: left;
+    display: inline-block;
+    margin-left: 16px;
+    margin-bottom: 8px;
+
 
 }
 
+li {
+    padding-left: 0px;
+    padding-right: 16px;
+}
+
 img {
+    display: block;
     height: auto;
-    width: 250px;
+    width: 50%;
+    align-items: center;
 }
 

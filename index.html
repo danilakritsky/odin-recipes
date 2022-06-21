@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"></html>
   <head>
     <meta charset="utf-8"> <!-- meta is case insensitive https://html.spec.whatwg.org/multipage/semantics.html#attr-meta-charset -->
+    <meta name="viewport" content="width=device-width">
     <title>Odin Recipes</title>
     <style>
       body {
         font-size: 16px;
         font-family: monospace;
         font-weight: 100px;
+        box-sizing: content-box;
+        max-width: 600px;
+        margin: auto;
       }
     </style>   
   </head>
@@ -16,9 +20,11 @@
       style="
         color: rgba(151, 12, 105, 0.705);
         font-size: 48px;
+        text-align: center;
+        
       "
     >Odin Recipes</h1>
-    <ul>
+    <ul style="width: 50%; margin: auto;">
       <li>
         <a href="./recipes/smores.html" target="_blank">
           S'mores
